@@ -7,13 +7,14 @@
 }
 .home-navbar {
   display: flex;
-  max-width: 100%;
+  max-width: 80%;
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
 .home-image {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   object-fit: cover;
 }
 .home-body {
@@ -324,6 +325,10 @@
   }
 }
 @media(max-width: 767px) {
+  .home-image {
+    width: 100%;
+    max-width: 400px;
+  }
   .home-body {
     padding-bottom: 200px;
   }
