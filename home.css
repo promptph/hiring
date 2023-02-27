@@ -8,7 +8,7 @@
 .home-navbar {
   display: flex;
   max-width: 80%;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
@@ -95,17 +95,17 @@
   background-color: var(--dl-color-primary-orange);
 }
 .home-text08 {
-  padding: var(--dl-space-space-oneandhalfunits);
   font-size: 20px;
   font-style: normal;
   text-align: center;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 600;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: capitalize;
+  vertical-align: middle;
 }
 .home-ul {
   padding-left: 0px;
@@ -279,18 +279,19 @@
   background-color: var(--dl-color-primary-orange);
 }
 .home-text75 {
-  padding: var(--dl-space-space-oneandhalfunits);
   font-size: 20px;
   font-style: normal;
   text-align: center;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 600;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: capitalize;
+  vertical-align: middle;
 }
+
 @media(max-width: 991px) {
   .home-text01 {
     font-size: 32px;
