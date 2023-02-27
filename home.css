@@ -75,6 +75,7 @@
   width: 240px;
   height: var(--dl-size-size-xlarge);
   display: flex;
+  min-width: 240px;
   align-items: flex-start;
   padding-left: var(--dl-space-space-threeunits);
   flex-direction: column;
