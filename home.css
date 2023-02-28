@@ -120,7 +120,6 @@
 }
 
 .nested-bullet-ul {
-  line-height: 1.15;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
 }
